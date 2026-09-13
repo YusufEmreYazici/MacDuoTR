@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" role="img" aria-label="Derinlik efekti: menteşe açısı sensörden okunur, görüntü dünyada sabit kalacak şekilde geriye yatırılır ve tek Metal geçişinde çizilir">
+  <rect x="0" y="0" width="880" height="420" rx="14" fill="#FBFCFD" stroke="#E3E8EF"/>
+  <text x="32" y="42" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="16" font-weight="600" fill="#1F2933">Derinlik efekti nasıl çalışır</text>
+
+  <!-- === Sol: yandan görünüm === -->
+  <text x="32" y="74" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="12" font-weight="600" fill="#5C6B7A">Yandan görünüm</text>
+
+  <!-- taban -->
+  <rect x="60" y="286" width="230" height="12" rx="4" fill="#DDE3EA"/>
+  <text x="175" y="316" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#7B8794">gövde</text>
+
+  <!-- menteşe -->
+  <circle cx="72" cy="286" r="5" fill="#5C6B7A"/>
+  <text x="72" y="336" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#5C6B7A">menteşe</text>
+
+  <!-- kapak: açık konum (referans) -->
+  <path d="M72 286 L196 112" stroke="#C9D2DD" stroke-width="10" stroke-linecap="round"/>
+  <text x="214" y="112" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#A6B0BC">kapak açık</text>
+
+  <!-- kapak: kapanmış konum -->
+  <path d="M72 286 L236 186" stroke="#8F9BA8" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- açı yayı -->
+  <path d="M132 286 A 60 60 0 0 0 108 234" fill="none" stroke="#2F6FEB" stroke-width="1.6"/>
+  <text x="140" y="256" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="12" font-weight="600" fill="#2F6FEB">θ</text>
+
+  <!-- görüntü düzlemi: dünyada sabit kalır -->
+  <path d="M86 268 L206 100" stroke="#E8833A" stroke-width="3" stroke-dasharray="6 4" stroke-linecap="round"/>
+  <text x="214" y="140" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#E8833A">görüntü odada</text>
+  <text x="214" y="156" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#E8833A">sabit kalır</text>
+
+  <!-- göz -->
+  <g transform="translate(316 196)">
+    <circle r="13" fill="#FFFFFF" stroke="#5C6B7A" stroke-width="1.4"/>
+    <circle r="4.5" fill="#5C6B7A"/>
+  </g>
+  <text x="316" y="226" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#5C6B7A">göz</text>
+  <path d="M302 192 L246 160" stroke="#B7C0CB" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <path d="M304 204 L230 188" stroke="#B7C0CB" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <text x="32" y="374" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#7B8794">Cam göz altında dönerken görüntü yerinde durur:</text>
+  <text x="32" y="390" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#7B8794">perspektif buradan çıkar.</text>
+
+  <!-- ayraç -->
+  <path d="M400 84 V368" stroke="#E3E8EF" stroke-width="1"/>
+
+  <!-- === Sağ: işlem hattı === -->
+  <text x="440" y="74" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="12" font-weight="600" fill="#5C6B7A">Kare başına işlem hattı</text>
+
+  <g font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial">
+    <rect x="440" y="90" width="400" height="46" rx="9" fill="#FFFFFF" stroke="#C9D2DD"/>
+    <text x="458" y="112" font-size="12.5" font-weight="600" fill="#1F2933">Menteşe sensörü</text>
+    <text x="458" y="128" font-size="11" fill="#5C6B7A">IOKit HID özellik raporu · 0,01° · ~10 Hz · izin gerekmez</text>
+
+    <path d="M640 136 V152" stroke="#5C6B7A" stroke-width="1.6" marker-end="url(#p)"/>
+
+    <rect x="440" y="152" width="400" height="46" rx="9" fill="#FFFFFF" stroke="#C9D2DD"/>
+    <text x="458" y="174" font-size="12.5" font-weight="600" fill="#1F2933">Sönümlü yay</text>
+    <text x="458" y="190" font-size="11" fill="#5C6B7A">10 Hz basamakları ekran tazeleme hızına yumuşatır</text>
+
+    <path d="M640 198 V214" stroke="#5C6B7A" stroke-width="1.6" marker-end="url(#p)"/>
+
+    <rect x="440" y="214" width="400" height="46" rx="9" fill="#FFFFFF" stroke="#C9D2DD"/>
+    <text x="458" y="236" font-size="12.5" font-weight="600" fill="#1F2933">Homografi</text>
+    <text x="458" y="252" font-size="11" fill="#5C6B7A">görüntünün dört köşesini ekrana yansıtır</text>
+
+    <path d="M640 260 V276" stroke="#5C6B7A" stroke-width="1.6" marker-end="url(#p)"/>
+
+    <rect x="440" y="276" width="400" height="60" rx="9" fill="#EEF4FF" stroke="#9CB8F0"/>
+    <text x="458" y="298" font-size="12.5" font-weight="600" fill="#1B3F8B">Metal — tek geçiş</text>
+    <text x="458" y="314" font-size="11" fill="#2B4E96">ters perspektif · Gauss piramidinden örnek · karartma</text>
+    <text x="458" y="330" font-size="11" fill="#5F7DBE">kaynak: ScreenCaptureKit canlı akışı (IOSurface, kopyasız)</text>
+  </g>
+
+  <text x="440" y="374" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#7B8794">Örtü penceresi tıklamaları geçirir; efekt yalnızca dahili ekrana uygulanır.</text>
+
+  <defs>
+    <marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5C6B7A"/>
+    </marker>
+  </defs>
+</svg>

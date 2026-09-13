@@ -1,0 +1,73 @@
+/* General */
+"genel.kapakAcisi" = "Lid angle";
+"genel.sensorYok" = "This Mac has no lid angle sensor. Only some MacBook models have one. The keyboard lock still works.";
+"genel.onizle" = "Preview";
+
+/* Main switches */
+"anahtar.derinlikEfekti" = "Depth effect";
+"anahtar.derinlikEfekti.aciklama" = "Leans the screen away as the lid closes.";
+"anahtar.canliGoruntu" = "Live rendering";
+"anahtar.canliGoruntu.aciklama" = "Off holds the frame from when the effect started.";
+
+/* Groups */
+"grup.baslangic" = "Start";
+"grup.gorunum" = "Look";
+"grup.perspektif" = "Perspective";
+"grup.klavyeKilidi" = "Keyboard lock";
+
+/* Start settings */
+"ayar.zamanAsimi" = "Timeout";
+"ayar.zamanAsimi.aciklama" = "Ends the effect once the angle stops changing.";
+"ayar.baslangicAcisi" = "Start angle";
+"ayar.baslangicAcisi.aciklama" = "The effect starts at this angle.";
+"ayar.tamEfekt" = "Full effect after";
+"ayar.tamEfekt.aciklama" = "Degrees of further closing to reach full strength.";
+
+/* Look settings */
+"ayar.bulaniklik" = "Blur";
+"ayar.bulaniklik.aciklama" = "Blur radius at the far edge.";
+"ayar.bulaniklikYayilimi" = "Blur spread";
+"ayar.bulaniklikYayilimi.aciklama" = "0 blurs the far edge only, 100 the whole picture.";
+"ayar.karartma" = "Dimming";
+"ayar.karartma.aciklama" = "How dark the far edge goes.";
+"ayar.karartmaYayilimi" = "Dimming spread";
+"ayar.karartmaYayilimi.aciklama" = "Everything above this height goes fully dark.";
+
+/* Perspective settings */
+"ayar.geriYatma" = "Lean back";
+"ayar.geriYatma.aciklama" = "Degrees of lean per degree of closing. 1 holds it still.";
+"ayar.perspektif" = "Perspective";
+"ayar.perspektif.aciklama" = "0 keeps the sides parallel, 100 converges sharply.";
+
+/* Keyboard lock */
+"kilit.baslat" = "Lock Keyboard";
+"kilit.durdur" = "Unlock";
+"kilit.aciklama" = "Disables the keyboard for cleaning. The trackpad and mouse keep working; unlock from the on-screen panel or from here with a click.";
+"kilit.durum.aciklama" = "The keyboard is locked. Click the button above, or the on-screen panel, to unlock.";
+"kilit.medyaTuslari" = "Media and function keys";
+"kilit.medyaTuslari.aciklama" = "Also block volume, brightness and playback keys.";
+"kilit.izinGerekli" = "Locking the keyboard requires Accessibility permission.";
+"kilit.izinAc" = "Open Accessibility settings";
+"kilit.basarisiz" = "Could not lock the keyboard. Allow MacDuoTR under System Settings → Privacy & Security → Accessibility, then restart the app.";
+"kilit.uyari" = "Caps Lock, the power button and password fields are protected by macOS and cannot be blocked.";
+"kilit.durum.kilitli" = "Keyboard locked";
+
+/* Lock panel */
+"panel.baslik" = "Keyboard Locked";
+"panel.altyazi" = "Go ahead and wipe the keyboard. The trackpad and mouse still work. Click the button below when you are done.";
+"panel.kilidiAc" = "Unlock";
+
+/* Permissions */
+"izin.ekranKaydi" = "Screen Recording permission is required for the depth effect.";
+"izin.sistemAyarlariniAc" = "Open System Settings";
+"izin.acilamadi" = "Could not open System Settings. Open it manually and allow MacDuoTR under Privacy & Security.";
+"izin.yenidenBaslatGerekli" = "Screen Recording is allowed but not active in this session. Once macOS has denied an app, it stays denied until the app restarts.";
+"izin.yenidenBaslat" = "Restart the app";
+
+/* App */
+"uygulama.dil" = "Language";
+"uygulama.dil.sistem" = "System";
+"uygulama.menudeAci" = "Show angle in menu bar";
+"uygulama.giristeBaslat" = "Launch at login";
+"uygulama.sifirla" = "Reset";
+"uygulama.cik" = "Quit";

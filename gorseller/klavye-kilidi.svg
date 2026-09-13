@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Klavye kilidi: olay yakalayıcısı klavye olaylarını düşürür, işaretçi olayları dokunulmadan geçer">
+  <rect x="0" y="0" width="880" height="300" rx="14" fill="#FBFCFD" stroke="#E3E8EF"/>
+
+  <text x="32" y="42" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="16" font-weight="600" fill="#1F2933">Klavye kilidi — tuşlar durur, imleç durmaz</text>
+
+  <!-- Klavye yolu -->
+  <rect x="32" y="76" width="150" height="56" rx="10" fill="#FFFFFF" stroke="#C9D2DD"/>
+  <text x="107" y="102" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="13" font-weight="600" fill="#1F2933">Klavye</text>
+  <text x="107" y="120" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#5C6B7A">keyDown / keyUp</text>
+
+  <path d="M182 104 H268" stroke="#5C6B7A" stroke-width="1.6" marker-end="url(#ok)"/>
+
+  <!-- Yakalayıcı -->
+  <rect x="268" y="66" width="214" height="76" rx="10" fill="#FFF3E8" stroke="#E8A45F"/>
+  <text x="375" y="92" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="13" font-weight="600" fill="#8A4B12">CGEventTap</text>
+  <text x="375" y="110" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#8A4B12">.cghidEventTap · .defaultTap</text>
+  <text x="375" y="128" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#A9713A">kendi iş parçacığında</text>
+
+  <!-- Düşürme -->
+  <path d="M482 104 H576" stroke="#D2D8E0" stroke-width="1.6" stroke-dasharray="5 5"/>
+  <g transform="translate(529 104)">
+    <circle r="15" fill="#FDECEC" stroke="#E08585"/>
+    <path d="M-6 -6 L6 6 M6 -6 L-6 6" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="529" y="146" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#C0392B">düşürülür</text>
+
+  <!-- İşaretçi yolu -->
+  <rect x="32" y="190" width="150" height="56" rx="10" fill="#FFFFFF" stroke="#C9D2DD"/>
+  <text x="107" y="216" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="13" font-weight="600" fill="#1F2933">Trackpad / Fare</text>
+  <text x="107" y="234" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#5C6B7A">hiç dokunulmaz</text>
+
+  <path d="M182 218 H646" stroke="#2F6FEB" stroke-width="1.8" marker-end="url(#okMavi)"/>
+  <text x="414" y="210" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#2F6FEB">kilidi açan tıklama bu yoldan gelir</text>
+
+  <!-- Pencere sunucusu -->
+  <rect x="646" y="66" width="202" height="180" rx="10" fill="#FFFFFF" stroke="#C9D2DD"/>
+  <text x="747" y="140" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="13" font-weight="600" fill="#1F2933">Pencere sunucusu</text>
+  <text x="747" y="160" text-anchor="middle" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#5C6B7A">ve uygulamalar</text>
+
+  <text x="32" y="278" font-family="ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial" font-size="11" fill="#7B8794">Caps Lock, güç düğmesi ve güvenli giriş alanları macOS tarafından korunur; bunlar engellenemez.</text>
+
+  <defs>
+    <marker id="ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5C6B7A"/>
+    </marker>
+    <marker id="okMavi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#2F6FEB"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,73 @@
+/* Genel */
+"genel.kapakAcisi" = "Kapak açısı";
+"genel.sensorYok" = "Bu Mac'te kapak açısı sensörü yok. Bu sensör yalnızca bazı MacBook modellerinde bulunur. Klavye kilidi yine de çalışır.";
+"genel.onizle" = "Önizle";
+
+/* Ana anahtarlar */
+"anahtar.derinlikEfekti" = "Derinlik efekti";
+"anahtar.derinlikEfekti.aciklama" = "Kapak kapanırken ekranı geriye yatırır.";
+"anahtar.canliGoruntu" = "Canlı görüntü";
+"anahtar.canliGoruntu.aciklama" = "Kapalıyken efektin başladığı andaki kare dondurulur.";
+
+/* Gruplar */
+"grup.baslangic" = "Başlangıç";
+"grup.gorunum" = "Görünüm";
+"grup.perspektif" = "Perspektif";
+"grup.klavyeKilidi" = "Klavye kilidi";
+
+/* Başlangıç ayarları */
+"ayar.zamanAsimi" = "Zaman aşımı";
+"ayar.zamanAsimi.aciklama" = "Açı değişmeyi bırakınca efekti bitirir.";
+"ayar.baslangicAcisi" = "Başlangıç açısı";
+"ayar.baslangicAcisi.aciklama" = "Efekt bu açıda başlar.";
+"ayar.tamEfekt" = "Tam efekt";
+"ayar.tamEfekt.aciklama" = "Tam güce ulaşmak için gereken ek kapanma derecesi.";
+
+/* Görünüm ayarları */
+"ayar.bulaniklik" = "Bulanıklık";
+"ayar.bulaniklik.aciklama" = "Uzak kenardaki bulanıklık yarıçapı.";
+"ayar.bulaniklikYayilimi" = "Bulanıklık yayılımı";
+"ayar.bulaniklikYayilimi.aciklama" = "0 yalnızca uzak kenarı, 100 tüm görüntüyü bulanıklaştırır.";
+"ayar.karartma" = "Karartma";
+"ayar.karartma.aciklama" = "Uzak kenarın ne kadar kararacağı.";
+"ayar.karartmaYayilimi" = "Karartma yayılımı";
+"ayar.karartmaYayilimi.aciklama" = "Bu yüksekliğin üstü tamamen kararır.";
+
+/* Perspektif ayarları */
+"ayar.geriYatma" = "Geriye yatma";
+"ayar.geriYatma.aciklama" = "Her kapanma derecesi başına yatma derecesi. 1 görüntüyü sabit tutar.";
+"ayar.perspektif" = "Perspektif";
+"ayar.perspektif.aciklama" = "0 kenarları paralel tutar, 100 keskin şekilde daraltır.";
+
+/* Klavye kilidi */
+"kilit.baslat" = "Klavyeyi Kilitle";
+"kilit.durdur" = "Kilidi Aç";
+"kilit.aciklama" = "Temizlik için klavyeyi devre dışı bırakır. Trackpad ve fare çalışmaya devam eder; kilidi ekrandaki panelden ya da buradan fareyle açarsınız.";
+"kilit.durum.aciklama" = "Klavye kilitli. Açmak için yukarıdaki düğmeye ya da ekrandaki panele tıklayın.";
+"kilit.medyaTuslari" = "Medya ve fonksiyon tuşları";
+"kilit.medyaTuslari.aciklama" = "Ses, parlaklık ve oynatma tuşları da engellensin.";
+"kilit.izinGerekli" = "Klavyeyi kilitlemek için Erişilebilirlik izni gerekir.";
+"kilit.izinAc" = "Erişilebilirlik ayarlarını aç";
+"kilit.basarisiz" = "Klavye kilitlenemedi. Sistem Ayarları → Gizlilik ve Güvenlik → Erişilebilirlik bölümünde MacDuoTR'ye izin verip uygulamayı yeniden başlatın.";
+"kilit.uyari" = "Caps Lock, güç düğmesi ve parola alanları macOS tarafından korunur; bunlar engellenemez.";
+"kilit.durum.kilitli" = "Klavye kilitli";
+
+/* Kilit paneli */
+"panel.baslik" = "Klavye Kilitli";
+"panel.altyazi" = "Klavyeni rahatça silebilirsin. Trackpad ve fare çalışmaya devam ediyor. Bitince aşağıdaki düğmeye tıkla.";
+"panel.kilidiAc" = "Kilidi Aç";
+
+/* İzinler */
+"izin.ekranKaydi" = "Derinlik efekti için Ekran Kaydı izni gerekir.";
+"izin.sistemAyarlariniAc" = "Sistem Ayarları'nı aç";
+"izin.acilamadi" = "Sistem Ayarları açılamadı. Elle açıp Gizlilik ve Güvenlik altından MacDuoTR'ye izin verin.";
+"izin.yenidenBaslatGerekli" = "Ekran Kaydı izni verildi ama bu oturumda etkin değil. macOS bir uygulamayı bir kez reddettiyse, uygulama yeniden başlayana dek reddedilmiş kalır.";
+"izin.yenidenBaslat" = "Uygulamayı yeniden başlat";
+
+/* Uygulama */
+"uygulama.dil" = "Dil";
+"uygulama.dil.sistem" = "Sistem";
+"uygulama.menudeAci" = "Menü çubuğunda açıyı göster";
+"uygulama.giristeBaslat" = "Girişte başlat";
+"uygulama.sifirla" = "Sıfırla";
+"uygulama.cik" = "Çık";

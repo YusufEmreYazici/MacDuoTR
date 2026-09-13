@@ -1,0 +1,31 @@
+MacDuoTR
+Copyright 2026 Y. Emre Yazıcı
+
+Bu ürün Apache Lisansı 2.0 altında dağıtılmaktadır.
+
+Derinlik efektinin yaklaşımı — menteşe açısının IOKit HID özellik raporlarından
+okunması, ScreenCaptureKit ile canlı yakalama ve perspektif, bulanıklık ile
+karartmanın tek geçişte Metal ile çizilmesi — Makito'nun Mac Duo projesinden
+öğrenilmiştir:
+
+    Mac Duo
+    Copyright 2026 Makito
+    https://github.com/sumimakito/Mac-Duo
+    Apache Lisansı 2.0 altında lisanslanmıştır.
+
+---
+
+MacDuoTR
+Copyright 2026 Y. Emre Yazıcı
+
+This product is distributed under the Apache License 2.0.
+
+The approach behind the depth effect — reading the hinge angle from IOKit HID
+feature reports, live capture through ScreenCaptureKit, and drawing the
+perspective, blur and dimming in a single Metal pass — was learned from
+Makito's Mac Duo project:
+
+    Mac Duo
+    Copyright 2026 Makito
+    https://github.com/sumimakito/Mac-Duo
+    Licensed under the Apache License 2.0.
