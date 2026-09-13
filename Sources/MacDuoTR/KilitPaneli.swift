@@ -55,8 +55,23 @@ final class KilitPaneli {
     func gizle() {
         guard let pencere else { return }
         self.pencere = nil
-        pencere.orderOut(nil)
-        pencere.close()
+
+        // Tıklamaları hemen bırak. Bu satır şart: kilidi açan düğme panelin
+        // kendi içinde olduğu için `gizle()` çoğu zaman panelin kendi olay
+        // gönderimi sırasında çağrılır, AppKit de o sırada istenen kapatmayı
+        // sonraki döngüye erteler. Ertelenen aralıkta pencere görünmez hâlde
+        // ekranda kalır ve — `acceptsFirstMouse` yüzünden — bulunduğu
+        // dikdörtgendeki tıklamaları yutmayı sürdürür.
+        pencere.ignoresMouseEvents = true
+        pencere.alphaValue = 0
+
+        // Kapatmanın kendisi de olay gönderiminin dışına alınır. Pencere
+        // yerelde tutulduğu için, bu arada açılan yeni bir panel etkilenmez.
+        DispatchQueue.main.async {
+            pencere.contentView = nil
+            pencere.orderOut(nil)
+            pencere.close()
+        }
     }
 
     private static func imlecinBulunduguEkran() -> NSScreen {

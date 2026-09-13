@@ -131,6 +131,9 @@ final class MenuCubugu: NSObject, NSPopoverDelegate {
         if balon.isShown {
             balon.performClose(gonderen)
         } else {
+            // Kurtarma yolu: kilit kapalıyken ekranda bir panel kalmış olamaz.
+            // Kalmışsa tıklamaları yutar; burada kesin olarak indiriyoruz.
+            if !kilit.kilitli { kilitPaneli.gizle() }
             // Balon her açılışta izinleri yeniden okur: kullanıcı Sistem
             // Ayarları'ndan izin verdiyse uyarı hemen kaybolmalı.
             izinler.tazele()
